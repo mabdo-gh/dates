@@ -7,7 +7,9 @@ import './App.css';
 import { useEffect, useState } from 'react';
 
 function App() {
+
   const [times, setTimes] = useState(dates);
+
   const clearTimes = () => {
     setTimes([]);
   }
@@ -30,3 +32,8 @@ function App() {
 }
 
 export default App;
+
+/**
+ * Development by : Mahmoud Abd Elaziz
+ * Mobile : 01201576447
+ */
